@@ -1,0 +1,231 @@
+=== START test_database 2019-10-17 16:34:35 ===
+[ERROR] Couldn't connect to the Drupal database. Please check your parameters. And be sure the WordPress server can access the Drupal database.<br />
+SQLSTATE[HY000] [2002] No such file or directory<br />
+Please read the <a href="https://wordpress.org/plugins/fg-drupal-to-wp/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2019-10-17 16:34:35 ===
+
+=== START test_database 2019-10-17 16:36:02 ===
+[ERROR] Couldn't connect to the Drupal database. Please check your parameters. And be sure the WordPress server can access the Drupal database.<br />
+SQLSTATE[HY000] [2002] No such file or directory<br />
+Please read the <a href="https://wordpress.org/plugins/fg-drupal-to-wp/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2019-10-17 16:36:02 ===
+
+=== START test_database 2019-10-17 16:36:29 ===
+[ERROR] Couldn't connect to the Drupal database. Please check your parameters. And be sure the WordPress server can access the Drupal database.<br />
+SQLSTATE[HY000] [2002] No such file or directory<br />
+Please read the <a href="https://wordpress.org/plugins/fg-drupal-to-wp/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2019-10-17 16:36:29 ===
+
+=== START test_database 2019-10-17 16:38:00 ===
+[ERROR] Couldn't connect to the Drupal database. Please check your parameters. And be sure the WordPress server can access the Drupal database.<br />
+SQLSTATE[HY000] [2002] No such file or directory<br />
+Please read the <a href="https://wordpress.org/plugins/fg-drupal-to-wp/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2019-10-17 16:38:00 ===
+
+=== START test_database 2019-10-17 16:38:27 ===
+[ERROR] Couldn't connect to the Drupal database. Please check your parameters. And be sure the WordPress server can access the Drupal database.<br />
+SQLSTATE[HY000] [2002] No such file or directory<br />
+Please read the <a href="https://wordpress.org/plugins/fg-drupal-to-wp/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2019-10-17 16:38:27 ===
+
+=== START test_database 2019-10-21 10:28:47 ===
+[ERROR] Couldn't connect to the Drupal database. Please check your parameters. And be sure the WordPress server can access the Drupal database.<br />
+SQLSTATE[HY000] [2002] No such file or directory<br />
+Please read the <a href="https://wordpress.org/plugins/fg-drupal-to-wp/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2019-10-21 10:28:47 ===
+
+=== START test_database 2019-10-21 10:45:20 ===
+[ERROR] Couldn't connect to the Drupal database. Please check your parameters. And be sure the WordPress server can access the Drupal database.<br />
+SQLSTATE[HY000] [2002] No such file or directory<br />
+Please read the <a href="https://wordpress.org/plugins/fg-drupal-to-wp/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2019-10-21 10:45:20 ===
+
+=== START test_database 2019-10-21 10:46:00 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+128 pages
+0 categories
+4 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains navigation menus. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains page titles. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains Addressfield custom fields. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/address/" target="_blank">Address add-on</a> to import them.
+[WARNING] Your Drupal database contains Ubercart products. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/ubercart/" target="_blank">Ubercart add-on</a> to import them.
+=== END test_database 2019-10-21 10:46:04 ===
+
+=== START import 2019-10-21 10:47:06 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+128 pages
+0 categories
+4 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains navigation menus. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains page titles. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains Addressfield custom fields. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/address/" target="_blank">Address add-on</a> to import them.
+[WARNING] Your Drupal database contains Ubercart products. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/ubercart/" target="_blank">Ubercart add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing tags...
+4 tags imported
+Importing articles...
+0 articles imported
+Importing pages...
+128 pages imported
+155 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-10-21 10:49:30 ===
+
+=== START modify_links 2019-10-21 10:51:26 ===
+12 internal links modified
+=== END modify_links 2019-10-21 10:51:26 ===
+
+=== START test_database 2019-10-21 10:54:39 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+128 pages
+0 categories
+4 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains navigation menus. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains page titles. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains Addressfield custom fields. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/address/" target="_blank">Address add-on</a> to import them.
+[WARNING] Your Drupal database contains Ubercart products. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/ubercart/" target="_blank">Ubercart add-on</a> to import them.
+=== END test_database 2019-10-21 10:54:42 ===
+
+=== START save 2019-10-21 10:54:47 ===
+Settings saved
+=== END save 2019-10-21 10:54:47 ===
+
+=== START import 2019-10-21 10:54:51 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+128 pages
+0 categories
+4 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains navigation menus. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains page titles. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains Addressfield custom fields. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/address/" target="_blank">Address add-on</a> to import them.
+[WARNING] Your Drupal database contains Ubercart products. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/ubercart/" target="_blank">Ubercart add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing articles...
+0 articles imported
+Importing pages...
+0 pages imported
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-10-21 10:54:56 ===
+
+=== START import 2019-10-21 10:58:45 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+128 pages
+0 categories
+4 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains navigation menus. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains page titles. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains Addressfield custom fields. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/address/" target="_blank">Address add-on</a> to import them.
+[WARNING] Your Drupal database contains Ubercart products. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/ubercart/" target="_blank">Ubercart add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing articles...
+0 articles imported
+Importing pages...
+0 pages imported
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-10-21 10:58:50 ===
+
+=== START test_database 2019-10-21 11:14:10 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+128 pages
+0 categories
+4 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains navigation menus. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains page titles. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains Addressfield custom fields. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/address/" target="_blank">Address add-on</a> to import them.
+[WARNING] Your Drupal database contains Ubercart products. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/ubercart/" target="_blank">Ubercart add-on</a> to import them.
+=== END test_database 2019-10-21 11:14:14 ===
+
+=== START save 2019-10-21 11:16:32 ===
+Settings saved
+=== END save 2019-10-21 11:16:32 ===
+
+=== START import 2019-10-21 11:16:35 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+128 pages
+0 categories
+4 tags
+
+[WARNING] Your Drupal database contains users. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom nodes. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains custom taxonomies. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains URL alias. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains navigation menus. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Drupal database contains meta tags. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains page titles. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/metatag/" target="_blank">Metatag add-on</a> to import them.
+[WARNING] Your Drupal database contains Addressfield custom fields. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/address/" target="_blank">Address add-on</a> to import them.
+[WARNING] Your Drupal database contains Ubercart products. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/" target="_blank">Premium version</a> and the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/ubercart/" target="_blank">Ubercart add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing articles...
+0 articles imported
+Importing pages...
+0 pages imported
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-10-21 11:16:40 ===
+

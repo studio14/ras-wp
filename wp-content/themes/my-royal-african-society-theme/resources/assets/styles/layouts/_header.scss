@@ -1,0 +1,193 @@
+@media screen and (max-width: 992px) {
+  .current-menu-parent a {
+    border-bottom: none !important;
+    color: $primary;
+  }
+}
+
+.current-menu-parent a {
+  color: $white;
+  text-decoration: none !important;
+  border-bottom: 2px solid $white;
+}
+
+.hot-action-button {
+  margin: $size-0;
+
+  a {
+    padding-left: $size-31;
+    padding-right: $size-31;
+    color: $white;
+
+    &:hover {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
+
+.banner .nav {
+  @apply list-reset flex flex-wrap;
+}
+
+.banner .nav a,
+.banner .navitem a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+header {
+  margin: $size-0;
+
+  .mycontainer {
+    padding-left: $size-0;
+    padding-right: $size-0;
+    padding: 1.2rem 0;
+    background: transparent;
+    min-height: 100px;
+
+    @media screen and (max-width: 1250px) {
+      .mobile-menu-diff {
+        justify-content: space-between !important;
+      }
+    }
+
+    .mobile-menu-diff {
+      max-width: 1160px;
+      padding-left: 0;
+      padding-right: 0;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav-primary {
+      color: $black;
+      float: right;
+      width: $size-100p;
+
+      .menu-primary-menu-container,
+      .menu-mobile-menu-container {
+        height: $size-100p;
+
+        .nav 
+        {
+          .current_page_item a {
+            border-color: $white !important;
+          }
+
+          li {
+            color: $white;
+
+            a {
+              color: $white;
+
+              &:hover {
+                border-bottom: 2px solid $white;
+              }
+            }
+          }
+        }
+
+        .navitem {
+          .current_page_item a {
+            border-color: $black;
+          }
+          li {
+            color: $black;
+
+            a {
+              color: $black;
+
+              &:hover {
+                border-bottom: 2px solid $black;
+              }
+            }
+          }
+        }
+
+        .nav,
+        .navitem {
+          height: $size-100p;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          float: right;
+
+          li {
+            margin-right: $size-32;
+
+            a {
+              font-size: $size-14;
+              line-height: $size-17;
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.035em;
+              text-transform: uppercase;
+              font-weight: 400;
+
+              &:hover {
+                text-decoration: none;
+              }
+            }
+
+            &:hover ul {
+              display: block !important;
+              -moz-animation: zoomIn 0.4s ease-in-out;
+              -webkit-animation: zoomIn 0.4s ease-in-out;
+              animation: zoomIn 0.4s ease-in-out;
+              // -webkit-transition: all 1s linear 0s;
+              // -moz-transition: all 1s linear 0s;
+              // -ms-transition: all 1s linear 0s;
+              // -o-transition: all 1s linear 0s;
+              // transition: all 1s linear 0s;
+            }
+          }
+
+          .sub-menu {
+            width: 241px;
+            padding-left: 43px;
+            padding-top: 25px;
+            padding-bottom: 26px;
+            padding-right: 0;
+            margin: 0;
+            background: $secondary;
+            position: absolute;
+            display: none;
+            z-index: 99999;
+            margin-top: 1px;
+
+            .current-menu-item a {
+              font-weight: bold !important;
+            }
+
+            .menu-item {
+              display: flex;
+              padding-bottom: 0;
+
+              a {
+                font-size: 17px !important;
+                line-height: normal !important;
+                align-items: center !important;
+                color: $white !important;
+                font-weight: 250;
+                text-transform: capitalize !important;
+                letter-spacing: normal !important;
+                text-decoration: none !important;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                border: none;
+
+                &:hover {
+                  font-weight: bold !important;
+                  text-decoration: none !important;
+                  font-size: 14px;
+                  border: none !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+.sub-menu-menu .current_page_parent .children {
+  display: block !important;
+}
+
+.sub-menu-menu .current_page_parent:hover {
+  display: block !important;
+  height: 100% !important;
+}
+
+.know-more-button:hover {
+  background-color: $white !important;
+  color: $primary !important;
+
+  svg {
+    fill: $primary !important;
+
+    path {
+      stroke: $primary !important;
+    }
+  }
+}
+
+.our-pillars-text {
+  a:hover {
+    color: $primary !important;
+  }
+}
+
+.blog-cat-tag:hover {
+  background-color: $white !important;
+  color: $primary !important;
+
+  p {
+    color: $primary !important;
+
+    a {
+      color: $primary !important;
+    }
+  }
+}
+
+.price-button .text-secondary:hover {
+  color: $primary !important;
+}
+
+.hot-action-button .primary-button:hover {
+  background: transparent !important;
+  color: #ef6d1d !important;
+  border: 1px solid !important;
+}
+
+.hot-action-button .secondary-button:hover {
+  background: transparent !important;
+  color: $secondary !important;
+  border: 1px solid $secondary !important;
+}
+
+.change-donate-button .secondary-button:hover {
+  background: transparent !important;
+  color: $secondary !important;
+  border: 1px solid $secondary !important;
+}
+
+.navitem li a:hover {
+  border-bottom: 2px solid $white;
+}
+
+.nav li a:hover {
+  border-bottom: 2px solid $black;
+}
+
+.navitem .hot-action-button .secondary-button:hover {
+  background-color: $white !important;
+  color: $secondary !important;
+}

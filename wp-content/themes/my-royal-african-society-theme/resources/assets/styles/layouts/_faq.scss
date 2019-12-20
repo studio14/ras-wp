@@ -1,0 +1,23 @@
+.faq_bg_title {
+    margin-bottom: 35px;
+
+    .head_title {
+        background-color: $primary;
+        width: fit-content;
+        color: $white;
+
+        h2 {
+            font-size: 18px;
+            line-height: 22px;
+            color: $white;
+            padding: 9px 18px;
+            font-weight: normal;
+        }
+    }
+}
+
+
+.rotate {
+    transform: rotate(180deg);
+}
+    

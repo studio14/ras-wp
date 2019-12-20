@@ -1,0 +1,224 @@
+@media screen and (max-width: 1200px) {
+  .search-details {
+    display: block !important;
+  }
+}
+
+#search {
+  width: 100vw;
+  background-color: $lightgrey;
+  margin-left: -50vw;
+  left: 50%;
+  position: relative;
+
+  .container {
+    max-width: 1160px;
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+
+    .search-container {
+      min-height: 206px;
+
+      @media screen and (max-width: 992px) {
+        form {
+          display: flex !important;
+          text-align: center;
+          flex-direction: column;
+        }
+      }
+
+      form {
+        display: inherit;
+        width: 100%;
+
+        .search-text {
+          background: $input-bg;
+          border: 1px solid $submenu-border;
+          box-sizing: border-box;
+          border-radius: 48px;
+          width: 100%;
+          height: 60px;
+          margin-right: 12px;
+          padding-right: 40px;
+          padding-left: 40px;
+          padding-right: 40px;
+          color: $dark-grey;
+
+          &::placeholder {
+            font-size: 20px;
+            line-height: 15px;
+            color: $dark-grey;
+          }
+
+          @media (max-width: 999px) {
+            &::placeholder {
+              font-size: 14px !important;
+            }
+          }
+        }
+
+        @media screen and (max-width:ya 992px) {
+          .btn-search {
+            margin-top: 10px !important;
+          }
+        }
+
+        .btn-search {
+          background: $secondary;
+          border: 1px solid $secondary;
+          border-radius: 40px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          width: 100%;
+          max-width: 262px;
+          height: 60px;
+          color: $white;
+          font-size: 20px;
+          line-height: 15px;
+
+          &:hover {
+            background: transparent;
+            color: $secondary;
+          }
+        }
+      }
+    }
+  }
+}
+
+#search-results {
+  margin-top: 70px;
+
+  .container {
+    max-width: 1160px;
+
+    .search-title-bg {
+      margin-left: 25px;
+
+      h2 {
+        font-size: 41px;
+        line-height: 44px;
+        letter-spacing: -0.035em;
+        font-weight: normal;
+      }
+
+      hr {
+        border-bottom: 5px solid #ef6d1d;
+        width: 60.1px;
+        margin-top: 48px;
+      }
+    }
+
+    .search-results-bg {
+      margin-top: 70px;
+
+      @media screen  and (max-width: 980px) {
+        .search-details {
+          margin-left: -5vw !important;
+          margin-right: -5vw !important;
+          width: unset !important;
+          max-width: unset !important;
+        }
+      }
+
+      .search-details {
+        max-width: 100%;
+        grid-template-columns: auto auto;
+        grid-column-gap: 10px;
+        display: grid;
+
+        .search-items-bg {
+          border: 1px solid $submenu-border;
+          box-sizing: border-box;
+          border-radius: 26px;
+          background: $input-bg;
+          margin-bottom: 19px;
+
+          .search-items {
+            margin: 45px 66px 65px 55px;
+          }
+
+          .title {
+            margin-bottom: 25px;
+
+            a {
+              color: $secondary;
+              font-size: 24px;
+              line-height: 44px;
+              letter-spacing: -0.035em;
+              font-weight: normal;
+
+              &:hover {
+                color: $primary;
+              }
+            }
+          }
+
+          .content {
+            margin-bottom: 52px;
+
+            p {
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: -0.035em;
+              color: $page-content;
+
+              .excerpt-more {
+                color: $secondary;
+                
+                &:hover {
+                  color: $primary;
+                }
+              }
+            }
+          }
+
+          .read-more {
+            text-align: right;
+            
+            a {
+              color: $secondary;
+              font-size: 14px;
+              line-height: 17px;
+              color: $black;
+
+              svg {
+                fill: $secondary;
+              }
+
+              &:hover {
+                color: $primary;
+
+                svg {
+                  fill: $primary;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.not-found-bg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  .not-found-title {
+    margin: auto;
+    text-align: center;
+
+    h1 {
+      font-size: 43px;
+      font-weight: normal;
+      line-height: 150%;
+    }
+  }
+}

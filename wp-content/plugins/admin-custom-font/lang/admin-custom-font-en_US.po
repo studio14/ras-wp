@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Custom Font\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Darko Angeleski <businesss.mail@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin-custom-font.php
+msgid "Security Check Failed. Please log out and log in back into WordPress."
+msgstr ""
+
+#: admin-custom-font.php
+msgid "Font Family"
+msgstr ""
+
+#: admin-custom-font.php
+msgid "Font Size"
+msgstr ""
+
+#: admin-custom-font.php
+msgid "Font Weight"
+msgstr ""
+
+#: admin-custom-font.php
+msgid "WordPress Default"
+msgstr ""
+
+#: admin-custom-font.php
+msgid "Apply Settings"
+msgstr ""
+
+#: admin-custom-font.php
+msgid "Try to reload page (F5) or clear browser cache if you do not see immediate changes."
+msgstr ""
+
+#: admin-custom-font.php
+msgid "Activate browser's DevTools (F12) + disable cache in it's settings (F1) and you will see instant changes."
+msgstr ""
+
+#: admin-custom-font.php
+msgid "Because of different font scalling not all font families appear nice and equal in size. Experiment with font size and weight."
+msgstr ""
+
+#: admin-custom-font.php
+msgid "Not all Google Fonts come with complete character sets in case you use non-latin language. Plugin will try to load them, if available."
+msgstr ""
+
+#: admin-custom-font.php
+msgid "Plugin re-compiles new CSS files every time you make some changes in settings. Make sure your permissions and ownerships are in order."
+msgstr ""
+
+#: admin-custom-font.php
+msgid "We have invested resources developing and improving this plugin. If you find it useful, please rate it and leave a review. Thanks!"
+msgstr ""
