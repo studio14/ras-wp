@@ -224,14 +224,14 @@
                     'events_date_sort' => array(
                       'key'=> 'events_date',
                       'value' => date('d-m-Y'),
-                      'compare' => '>=',
+                      'compare' => '<=',
                       'type' => 'date',
                     )
                 ),
             ),
             'orderby'          => array(
               'home_only_sort' => 'DESC',
-              'events_date_sort' => 'DESC',
+              'events_date_sort' => 'ASC',
             )
 
             );
