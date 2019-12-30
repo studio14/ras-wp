@@ -231,7 +231,7 @@
             ),
             'orderby'          => array(
               'home_only_sort' => 'DESC',
-              'events_date_sort' => 'ASC',
+              'events_date_sort' => 'DESC',
             )
 
             );
