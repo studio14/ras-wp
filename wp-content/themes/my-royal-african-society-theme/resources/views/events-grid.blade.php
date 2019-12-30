@@ -121,7 +121,7 @@
                           <div class="events-show-grid">
                               <div class="container flex flex-wrap flex-row">
                               <?php
-                                  $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+                                  $paged = get_query_var('paged') ? get_query_var( 'paged' ) : 1;
                                   $terms = $_GET['category'] ? $_GET['category'] : '';
                                   $args = array('post_type' => 'events', 
                                       'posts_per_page' => 8, 
