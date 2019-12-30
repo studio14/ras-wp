@@ -212,7 +212,7 @@
         <div class="events-content block lg:flex">
             <?php
             $args = array('post_type' => 'events', 
-            'post_per_page' => -1,
+            'post_per_page' => 2,
             'meta_query' => array(
                 array(
                     'relation' => 'AND',
@@ -225,13 +225,13 @@
                       'key'=> 'events_date',
                       'value' => date('d-m-Y'),
                       'compare' => '<=',
-                      'type' => 'date',
+                      'type' => 'DATE',
                     )
                 ),
             ),
             'orderby'          => array(
               'home_only_sort' => 'DESC',
-              'events_date_sort' => 'DESC',
+              'events_date_sort' => 'DESC'
             )
 
             );
