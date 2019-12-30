@@ -224,7 +224,7 @@
                     'events_date_sort' => array(
                       'key'=> 'events_date',
                       'value' => date('d-m-Y'),
-                      'compare' => '<=',
+                      'compare' => '>=',
                       'type' => 'DATE',
                     )
                 ),
