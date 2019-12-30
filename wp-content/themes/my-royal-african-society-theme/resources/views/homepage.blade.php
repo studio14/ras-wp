@@ -215,7 +215,7 @@
             'post_per_page' => 2,
             'meta_query' => array(
                 array(
-                    'relation' => 'AND',
+                    'relation' => 'OR',
                     'home_only_sort' => array(
                       'key' => 'home_only',
                       'value' => 1,
