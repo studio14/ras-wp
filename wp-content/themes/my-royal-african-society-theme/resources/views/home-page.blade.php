@@ -207,7 +207,7 @@
     <div class="lg:container class-events-container">
       <div class="latest-events-container">
         <div class="events-title">
-          <h2>Events Tester</h2>
+          <h2>Events Tester Me</h2>
         </div>
         <div class="events-content block lg:flex">
             <?php
