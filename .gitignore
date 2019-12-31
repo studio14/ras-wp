@@ -18,6 +18,7 @@ wp-content/backup-db/
 wp-content/cache/
 wp-content/backups/
 wp-content/uploads/
+wp-content/updraft/
 wp-content/plugins/
 secret/
 .DS_Store
