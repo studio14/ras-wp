@@ -406,7 +406,7 @@ function pagination($pages = '', $title, $range = 4)
          }
         $returnstring .= "<div class=\"event-pagination\">
                             <div class=\"events-pagination-link flex justify-center text-center ".$addClass." flex flex-wrap item-center\">";
-        if($paged > 1) $returnstring .= "<a href='".get_pagenum_link(1)."'>
+        if($paged > 1) $returnstring .= "<a href='".get_pagenum_link($paged - 1)."'>
         <svg width='6' height='11' style='margin-right: 12px' viewBox='0 0 6 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
         <path d='M4.8583 0L6 1.2925L2.2915 5.5L6 9.7075L4.8583 11L0 5.5L4.8583 0Z' fill='#EF6D1D'/>
         </svg>
