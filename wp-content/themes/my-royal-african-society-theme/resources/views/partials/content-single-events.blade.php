@@ -41,7 +41,7 @@
                                     <h2 class="events-title">Admission:</h2>
                                 </div>
                                 <div class="events-when-info max-w-208">
-                                    <p class="events-date">£<?= get_field('events_ticket_price'); ?></p> 
+                                    <p class="events-date"><?= get_field('events_ticket_price'); ?></p> 
                                 </div>
                         </div>
                         <div class="events-button-link">

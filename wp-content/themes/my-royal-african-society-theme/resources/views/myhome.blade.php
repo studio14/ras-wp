@@ -2,10 +2,10 @@
   Template Name: Home Page Template
 --}}
 
-@extends('layouts.app')
+@extends('layouts.app1')
 
 @section('content')
-<div class="slideshow-container">
+<div class="slideshow-container" style="margin-top: -101px;z-index: -1;">
   <div class="owl-carousel">
   @foreach($custom_sliders as $custom_slider)
   <div class="home-page" style="background-image: url({!! $custom_slider['featured_image'] !!});">
@@ -207,12 +207,12 @@
     <div class="lg:container class-events-container">
       <div class="latest-events-container">
         <div class="events-title">
-          <h2>Events</h2>
+          <h2>Our Events</h2>
         </div>
         <div class="events-content block lg:flex">
             <?php
             $args = array('post_type' => 'events', 
-            'post_per_page' => 2,
+            'post_per_page' => -1,
             'meta_query' => array(
                 array(
                     'relation' => 'OR',
@@ -225,13 +225,13 @@
                       'key'=> 'events_date',
                       'value' => date('d-m-Y'),
                       'compare' => '>=',
-                      'type' => 'DATE',
+                      'type' => 'date',
                     )
                 ),
             ),
             'orderby'          => array(
               'home_only_sort' => 'DESC',
-              'events_date_sort' => 'DESC'
+              'events_date_sort' => 'DESC',
             )
 
             );
