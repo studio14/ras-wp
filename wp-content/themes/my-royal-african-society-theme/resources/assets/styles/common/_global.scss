@@ -1,0 +1,288 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply mb-0 ;
+}
+
+p {
+  @apply mb-0 ;
+}
+
+a {
+  @apply text-primary no-underline border-b border-transparent;
+
+  outline: none;
+  transition: 0.2s ease;
+
+  &:hover {
+    text-decoration: none;
+    outline: none;
+  }
+
+  &:focus {
+    border: 0;
+    outline: none;
+  }
+}
+
+button:focus {
+  outline: none !important;
+}
+
+hr {
+  margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .current-menu-item a {
+    border-bottom: none !important;
+    color: $primary;
+  }
+}
+
+.current-menu-item a {
+  border-bottom: 2px solid $black;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.primary-button {
+  background: $primary;
+  border-radius: $size-80;
+  color: $white;
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: $white default;
+      text-decoration: none default;
+    }
+  }
+}
+
+.secondary-button {
+  background: $secondary;
+  border-radius: $size-73;
+  $color: $white;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html {
+  font-family: Brown;
+}
+
+#tinymce ul {
+  list-style: unset !important;
+  margin-left: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: $size-0;
+  padding: $size-0;
+}
+
+.know-more-button {
+  border: 1.5px solid $white;
+  box-sizing: border-box;
+  border-radius: 80px !important;
+  height: 42px;
+  text-transform: uppercase !important;
+}
+
+.action-button-bg {
+  margin-top: $size-0;
+
+  .action-button {
+    width: 201.65px;
+    height: 53.56px;
+    box-sizing: border-box;
+    border-radius: $size-30;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      font-size: $size-17;
+      line-height: $size-14;
+      text-transform: uppercase;
+      border-radius: $size-30 !important;
+      width: 201.65px;
+
+      img {
+        margin-left: $size-10;
+        margin-bottom: 2%;
+      }
+
+      svg {
+        margin-left: 29px;
+        display: inline;
+      }
+    }
+  }
+}
+
+.container {
+  max-width: 1160px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .responsive-wrap {
+    flex-wrap: wrap !important;
+  }
+
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+.btn-primary {
+  width: 208px;
+}
+
+.sub-menu-menu ul .page_item_has_children .children {
+  display: none;
+}
+
+.sub-menu-menu ul .current_page_item .children {
+  display: block !important;
+}
+
+input:focus,
+textarea {
+  outline: none !important;
+}
+
+.sub-menu-menu {
+  .current_page_item {
+    color: $primary !important;
+
+    a {
+      color: $primary !important;
+
+      &:hover {
+        color: $primary !important;
+      }
+    }
+
+    .page_item {
+      color: $secondary !important;
+
+      a {
+        color: $secondary !important;
+      }
+    }
+  }
+}
+
+.sticky-menu {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  animation: smoothScroll 2s forwards;
+}
+
+.sticky-sub-menu {
+  position: fixed !important;
+  top: 0;
+}
+
+.sticky-sub-menu + .content {
+  padding-top: 0px;
+}
+
+.removeZIndex {
+  z-index: -1 !important;
+}
+
+@keyframes smoothScroll {
+	0% {
+		transform: translateY(-40px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 992px) {
+  .button-xs {
+    padding-top: 22px !important;
+    padding-bottom: 22px !important;
+  }
+}
+
+.checkbox input[type="checkbox"] {
+  opacity: 0;
+}
+
+.checkbox label::before{
+  content: "";
+  display: inline-block;
+  
+  height: 13px;
+  width: 13px;
+  
+  border: 1px solid;   
+}
+
+.checkbox label::after {
+  content: "";
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-color: $primary;
+}
+
+.checkbox label::before {
+  top: 3px;
+}
+
+.checkbox label::after {
+  left: 4px;
+  top: 7px;
+}
+
+.checkbox input[type="checkbox"] + label::after {
+  content: none;
+}
+
+.checkbox input[type="checkbox"]:checked + label::after {
+  content: "";
+}
+
+.checkbox input[type="checkbox"]:focus + label::before {
+  outline: $primary auto 5px;
+}
+
+.excerpt-more {
+  font-size: inherit !important;
+  line-height: normal !important;
+  color: inherit !important;
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px) {
+    .slider-indicator-bg {
+        right: unset !important;
+    }
+}
+
+.slider-indicator-bg {
+    top: 74%;
+    float: right;
+    right: -95px;
+
+    .active,
+    .dot:hover {
+        background-color: $primary !important;
+    }
+    
+    .dot {
+        cursor: pointer;
+        height: 9px;
+        width: 9px;
+        margin: 0 2px;
+        background-color: $light-grey;
+        display: inline-block;
+        transition: background-color .6s ease;
+        border-radius: 0;
+    }
+}

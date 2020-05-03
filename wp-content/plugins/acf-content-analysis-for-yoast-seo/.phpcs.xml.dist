@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    name="Yoast SEO ACF Analysis"
+    xsi:noNamespaceSchemaLocation="./vendor/squizlabs/php_codesniffer/phpcs.xsd">
+
+	<description>Yoast SEO ACF Analysis Coding Standards</description>
+
+	<!--
+	#############################################################################
+	COMMAND LINE ARGUMENTS
+	https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-ruleset.xml
+	#############################################################################
+	-->
+
+	<file>.</file>
+
+	<exclude-pattern>vendor/*</exclude-pattern>
+	<exclude-pattern>node_modules/*</exclude-pattern>
+	<exclude-pattern>languages/*</exclude-pattern>
+	<exclude-pattern>tests/js/system/data/acf*\.php$</exclude-pattern><!-- Code exported from ACF. -->
+	<exclude-pattern>tests/php/unit/Dependencies/acf\.php$</exclude-pattern><!-- ACF mock class. -->
+
+	<!-- Only check PHP files. -->
+	<arg name="extensions" value="php"/>
+
+	<!-- Show progress, show the error codes for each message (source). -->
+	<arg value="ps"/>
+
+	<!-- Strip the filepaths down to the relevant bit. -->
+	<arg name="basepath" value="./"/>
+
+	<!-- Check up to 8 files simultanously. -->
+	<arg name="parallel" value="8"/>
+
+
+	<!--
+	#############################################################################
+	USE THE YoastCS RULESET
+	#############################################################################
+	-->
+
+	<rule ref="Yoast"/>
+
+
+	<!--
+	#############################################################################
+	SNIFF SPECIFIC CONFIGURATION
+	#############################################################################
+	-->
+
+	<!-- Set the minimum supported WP version. This is used by several sniffs. -->
+	<config name="minimum_supported_wp_version" value="4.6"/>
+
+	<!-- Verify that all gettext calls use the correct text domain. -->
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="acf-content-analysis-for-yoast-seo"/>
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="Yoast.Files.FileName">
+		<properties>
+			<!-- Don't trigger on the main file as renaming it would deactivate the plugin. -->
+			<property name="exclude" type="array">
+				<element value="yoast-acf-analysis.php"/>
+			</property>
+
+			<!-- Remove the following prefixes from the names of object structures. -->
+			<property name="prefixes" type="array">
+				<element value="Yoast_ACF_Analysis"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- Verify that everything in the global namespace is prefixed with a plugin specific prefix. -->
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<!-- Provide the prefixes to look for. -->
+			<property name="prefixes" type="array">
+				<!-- Temporarily allowed until the prefixes are fixed. -->
+				<element value="AC_Yoast"/>
+				<element value="AC_SEO"/>
+				<element value="ysacf"/>
+				<!-- These are the new prefixes which all code should comply with in the future. -->
+				<element value="yoast_acf"/>
+				<element value="Yoast\WP\ACF"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- Allow additional word delimiters for hook names. -->
+	<rule ref="WordPress.NamingConventions.ValidHookName">
+		<properties>
+			<property name="additionalWordDelimiters" value="/"/>
+		</properties>
+	</rule>
+
+	<!-- Whitelist a few non-snakecase PHPUnit properties. -->
+	<rule ref="WordPress.NamingConventions.ValidVariableName">
+		<properties>
+			<property name="customPropertiesWhitelist" type="array">
+				<element value="preserveGlobalState"/>
+				<element value="runTestInSeparateProcess"/>
+			</property>
+		</properties>
+	</rule>
+
+</ruleset>

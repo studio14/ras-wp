@@ -1,0 +1,21 @@
+.join-us-title {
+  a {
+    svg {
+      margin-left: 29px;
+    }
+
+    &:hover {
+      background-color: $white !important;
+      color: $primary !important;
+
+      svg {
+        color: $primary !important;
+        fill: $primary !important;
+
+        path {
+          stroke: $primary !important;
+        }
+      }
+    }
+  }
+}

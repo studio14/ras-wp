@@ -1,0 +1,78 @@
+#staticpages {
+  margin: 0;
+
+  .staticpages-title-bg {
+    margin-top: 184px;
+    width: $size-100p;
+
+    .title {
+      max-width: 714px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        font-size: 57px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: -0.035em;
+        color: $black;
+        font-weight: 300;
+        padding-bottom: 48px;
+      }
+
+      hr {
+        border-bottom: 9px solid $primary;
+        width: 79.1px;
+      }
+    }
+  }
+
+  .staticpages-content {
+    margin-top: 79px;
+
+    .title {
+      max-width: 549px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: $black;
+        font-weight: normal;
+      }
+    }
+
+    .details {
+      margin-top: 35px;
+      max-width: 938px;
+
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: $black;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      b,
+      strong {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: $primary;
+        font-weight: bold;
+      }
+    }
+  }
+}

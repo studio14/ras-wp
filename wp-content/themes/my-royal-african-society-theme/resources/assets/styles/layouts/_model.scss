@@ -1,0 +1,15 @@
+.embeded-video {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 992px) {
+        iframe {
+            height: 50vh !important;
+        }
+    }
+    iframe {
+        height: 90%;
+    }
+}

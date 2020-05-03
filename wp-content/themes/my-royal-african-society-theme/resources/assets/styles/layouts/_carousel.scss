@@ -1,0 +1,18 @@
+// additional style the owl ccarousel
+.owl-dots {
+  position: absolute;
+  left: 82%;
+  top: 530px;
+  display: flex;
+
+  .owl-dot {
+    height: 10px;
+    width:  10px;
+    background-color: $dark-grey !important;
+    margin-right: 7px;
+  }
+
+  .active {
+    background-color: $primary !important;
+  }
+}
