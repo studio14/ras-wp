@@ -1,4 +1,4 @@
-FROM wordpress:latest
+FROM mainsite:latest
 
 RUN \
   #
