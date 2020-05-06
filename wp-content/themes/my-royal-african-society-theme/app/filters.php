@@ -254,13 +254,12 @@ add_filter('get_search_form', function(){
  * 
  */
 
-function sort_events_archive_loop($query) { 
+add_action('pre_get_posts', function($query) {
     if ($query->is_post_type_archive('events')) {
     $query->set('order', 'DESC');
     $query->set('meta_key', 'events_date');
     }
-}
-add_action('pre_get_posts', 'sort_events_archive_loop');
+}, 1);
 
 add_filter( 'get_archives_link', function( $link_html, $url, $text, $format, $before, $after ) {
     if (isset($_GET['date']) && $_GET['date'] == strtotime($text)) $selected = 'selected'; else $selected = '';
@@ -312,16 +311,15 @@ function format_event_date($events_date) {
  *
  * @return WP_Query
  */
-function events_archive_pre_get_posts($query) {
-    if (!$query->is_main_query() || !is_post_type_archive('events')) return $query;
-    $query->set('meta_key', 'events_date');
-    $query->set('meta_compare', '>=');
-    $query->set('meta_value', date('Y-m-d'));
-    $query->set('meta_type', 'DATE');
-    $query->set('posts_per_page', 2);
-    $query->set('orderby', 'meta_value');
-    $query->set('order', 'ASC');
-    return $query;
-}
 
-add_filter('pre_get_posts', 'events_archive_pre_get_posts');
+add_filter('pre_get_posts', function($query) {
+    if (!$query->is_main_query() || !is_post_type_archive('events')) return $query;
+        $query->set('meta_key', 'events_date');
+        $query->set('meta_compare', '>=');
+        $query->set('meta_value', date('Y-m-d'));
+        $query->set('meta_type', 'DATE');
+        $query->set('posts_per_page', 2);
+        $query->set('orderby', 'meta_value');
+        $query->set('order', 'ASC');
+        return $query;
+});

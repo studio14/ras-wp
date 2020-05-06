@@ -247,7 +247,7 @@
             $postCount = 0;
             $numberPosts = $query->found_posts;
             while($query -> have_posts()) : $query -> the_post();
-            $events_id = $query->post->ID;
+            $events_id = $query->ID;
             $events_date = get_field('events_date');
             $events_link = get_post_meta($query->post->ID, 'events_link');
             $events_location = get_post_meta($query->post->ID, 'events_location');
