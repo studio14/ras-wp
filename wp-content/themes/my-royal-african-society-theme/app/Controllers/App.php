@@ -342,36 +342,5 @@ class App extends Controller
             ];
         }, $document_items);
     }
-
-
-    public function customArchives() {
-        $posts = get_posts(array(
-            'post_status' => 'publish',
-            'post_type' => 'events',
-            'meta_key'  => 'events_date',
-            'orderby'   => 'meta_value',
-            'order'     => 'DESC'
-        ));
-
-        $group_posts = array();
-
-            if( $posts ) {
-
-                foreach( $posts as $post ) {
-
-                    $date = get_field('events_date', $post->ID, false);
-
-                    $date = explode('/', get_field('events_date'));
-
-                    $year = $date[2];
-                    $month = $date[1];
-
-                    $group_posts[$year][$month][] = array($post, $date);
-
-                }
-
-            }
-        return $group_posts;
-    }
     
 }

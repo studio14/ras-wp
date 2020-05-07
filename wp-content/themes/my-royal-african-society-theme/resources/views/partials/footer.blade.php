@@ -35,7 +35,7 @@
           <h2> Newsletter sign-up</h2>
         </div>
         <div class="newsletter-form">
-          <?php echo do_shortcode("[mc4wp_form id='986']"); ?>
+          <?php echo do_shortcode('[mc4wp_form id="986"]'); ?>
         </div>
       </div>
     </div>

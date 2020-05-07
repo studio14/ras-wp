@@ -8,9 +8,7 @@ use Roots\Sage\Template\Blade;
 use Roots\Sage\Template\BladeProvider;
 
 
-include("apis/apiEvents.php");
-include("apis/apiNews.php");
-include("apis/apiDiscounts.php");
+include("apis/api.php");
 
 /**
  * Theme assets
@@ -278,16 +276,12 @@ function restrict_page_deletion($post_ID){
 }
 add_action('before_delete_post', 'restrict_page_deletion', 10, 1);
 
-
-function events_pre_get_posts( $query ) {
-	
-	// do not modify queries in the admin
-	if( is_admin() ) {
+add_action('pre_get_posts', function($query) {
+    if( is_admin() ) {
 		return $query;
 	}
-	
 	if( isset($query->query_vars['post_type']) && $query->query_vars['post_type'] == 'events' ) {
-		$query = new WP_Query( array(
+		$query = new \WP_Query( array(
             'meta_query' => array(
                 'events_date_sort' => array(
                     'key' => 'events_date',
@@ -300,12 +294,7 @@ function events_pre_get_posts( $query ) {
                 ) 
             ) 
         );
-        
-        $query->set('meta_query', $meta_query);
-        $query->set('orderby', array('events_date_sort' => 'DESC'));
+    
+    $query->set('orderby', array('events_date_sort' => 'DESC'));
 	}
-	// return
-	var_dump($query);
-}
-
-add_action('pre_get_posts', 'events_pre_get_posts');
+}, 1);
