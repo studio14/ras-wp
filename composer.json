@@ -42,7 +42,8 @@
     "stoutlogic/acf-builder": "^1.8",
     "ext-gd": "*",
     "ext-bcmath": "*",
-    "ext-exif": "*"
+    "ext-exif": "*",
+    "ext-mbstring": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.8.0",
