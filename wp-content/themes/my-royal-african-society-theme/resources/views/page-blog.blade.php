@@ -105,7 +105,7 @@
                                             <p>{{ the_time('d/n/Y') }}</p>
                                         </div>
                                         <div class="title">
-                                            <a href="{{ get_permalink() }}"><h2>{!! App\limit_character(html_entity_decode(get_the_title()), '45') !!}</h2></a>
+                                            <a href="{{ get_permalink() }}"><h2>{!! App\limit_character(html_entity_decode(get_the_title()), '50') !!}</h2></a>
                                         </div>
                                         <div class="content">
                                             <p>@php the_excerpt() @endphp</p>
@@ -148,7 +148,7 @@
                             </div>
                             <div class="news-content-info">
                               <div class="news-content-title">
-                                <a href="{{ get_permalink() }}">{!! App\limit_character(get_the_title(), '50') !!}</a>
+                                <a href="{{ get_permalink() }}">{!! App\limit_character(html_entity_decode(get_the_title()), '50') !!}</a>
                               </div>
                               <div class="news-content-summary">
                                 <p>{!! App\limit_character(get_the_excerpt(), '260') !!}</p>

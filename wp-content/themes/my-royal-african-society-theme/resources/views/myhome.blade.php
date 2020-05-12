@@ -374,7 +374,7 @@
               </div>
               <div class="news-content-info">
                 <div class="news-content-title">
-                  <a href="{{ get_permalink() }}">{!! App\limit_character(html_entity_decode(get_the_title()), '35') !!}</a>
+                  <a href="{{ get_permalink() }}">{!! App\limit_character(html_entity_decode(get_the_title()), '50') !!}</a>
                 </div>
                 <div class="news-content-summary">
                   <p>{!! App\limit_character(get_the_excerpt(), '260') !!}</p>
