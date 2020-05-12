@@ -32,8 +32,8 @@ function fromenv($key, $default = null) {
   return $value;
 }
 
-$DSN = parse_url(fromenv('DATABASE_URL', 'mysql://mysql:b99da7357695c645@dokku-mysql-ras-wordpress:3306/ras_wordpress'));
-// $DSN = parse_url(fromenv('DATABASE_URL', 'mysql://root:root@localhost:8889/myras_wp'));
+// $DSN = parse_url(fromenv('DATABASE_URL', 'mysql://mysql:b99da7357695c645@dokku-mysql-ras-wordpress:3306/ras_wordpress'));
+$DSN = parse_url(fromenv('DATABASE_URL', 'mysql://root:root@localhost:8889/myras_wp'));
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', substr($DSN['path'], 1));
