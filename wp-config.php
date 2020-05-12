@@ -89,7 +89,7 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 
-define('WP_DEBUG', (bool)fromenv('WP_DEBUG', true));
+define('WP_DEBUG', (bool)fromenv('WP_DEBUG', false));
 
 // If we're behind a proxy server and using HTTPS, we need to alert Wordpress of that fact
 // see also http://codex.wordpress.org/Administration_Over_SSL#Using_a_Reverse_Proxy
