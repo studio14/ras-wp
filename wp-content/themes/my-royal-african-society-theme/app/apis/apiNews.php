@@ -146,7 +146,7 @@ function api_get_post($request) {
 
   if($post) {
     $post_thumbnail = ( has_post_thumbnail( $post->ID ) ) ? get_the_post_thumbnail_url( $post->ID ) : null;
-    $post_data[] = array(
+    $post_data = array(
       'id' => $post->ID,
       'title' => $post->post_title,
       'featured_img_src' => $post_thumbnail,

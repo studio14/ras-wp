@@ -243,7 +243,6 @@ function api_get_event($request) {
   );
 
   $event = get_posts($args);
-  var_dump($event);
   $event = $event[0];
 
   if($event) {
