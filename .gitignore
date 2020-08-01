@@ -24,3 +24,4 @@
 .env
 Dockerfile.dev
 yarn.lock
+package-lock.json/
